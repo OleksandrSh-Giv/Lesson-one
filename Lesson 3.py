@@ -7,6 +7,7 @@ def calculator():
         operator = input("Введіть дію (+, -, *, /): ")
         num2 = float(input("Введіть друге число: "))
 
+
         # Обчислення результату на основі оператора
         if operator == '+':
             result = num1 + num2
